@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/students', studentRoutes);
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://mohammedarslaan2004:rj1Z5cEYyxAYkYc7@arslaan49.mx5qn1l.mongodb.net/?retryWrites=true&w=majority&appName=Arslaan49', {
+mongoose.connect('mongodb+srv://arslaan490:xhQ6npCcUL6qLt4T@cluster0.lrdy0vq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
